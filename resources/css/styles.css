@@ -3,10 +3,6 @@ html {
   font-size: 14px;
 }
 
-body {
-
-}
-
 h2 {
   color: #399bd1;
 }
@@ -73,19 +69,19 @@ img {
 }
 
 .background-bike {
-  background-image: url("./resources/images/jumbotron-bike.jpg");
+  background-image: url("https://halllou.github.io/jumpstart/resources/images/jumbotron-bike.jpg");
 }
 
 .background-beer {
-  background-image: url("./resources/images/jumbotron-beer.jpg");
+  background-image: url("https://halllou.github.io/jumpstart/resources/images/jumbotron-beer.jpg");
 }
 
 .background-flowers {
-  background-image: url("./resources/images/jumbotron-flowers.jpg");
+  background-image: url("https://halllou.github.io/jumpstart/resources/images/jumbotron-flowers.jpg");
 }
 
 .background-duffel {
-  background-image: url("./resources/images/jumbotron-duffel.jpg");
+  background-image: url("https://halllou.github.io/jumpstart/resources/images/jumbotron-duffel.jpg");
 }
 
 .jumbotron h1 {
@@ -144,7 +140,18 @@ img {
   }
 }
 
+/* Slick Overrides */
+
+.slick-slide {
+  outline: none;
+}
+
 /* Featured project section */
+
+.featured-project {
+  margin-top: -7rem; /* To account for relatively positioned button */
+}
+
 .featured-project .image-container {
   height: 19rem;
   margin-top: 20px;
